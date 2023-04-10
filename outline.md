@@ -21,7 +21,8 @@ Outline:
   - Distinct Select
   - Update
   - Where
-  - Less Than (邏輯運算子 比大小)
+  - Less Than (邏輯運算子 比大小) 
+      運算子參考資料 (https://learn.microsoft.com/zh-tw/sql/t-sql/language-elements/operators-transact-sql?view=sql-server-ver16)
   - Like String Filter (字串比對)
   - Or
   - And 
