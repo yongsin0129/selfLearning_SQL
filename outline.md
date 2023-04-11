@@ -2,10 +2,10 @@ Outline:
 # Create Database (1)
   - Drop Database
   - Use Database
-# Create Table (2)
+  - Create Table (2)
   - Alter Table
   - Drop Table
-  - Create Table (Part 2)
+# Create Table (Part 2)
   - Band Table
   - Not Null
   - Primary Key/ID/Auto Increment
@@ -19,7 +19,7 @@ Outline:
   - Order By
 # Insert Into (Part 2) (5)
   - Distinct Select
-  - Update
+  - Update (SET)
   - Where
   - Less Than (邏輯運算子 比大小) 
       運算子參考資料 (https://learn.microsoft.com/zh-tw/sql/t-sql/language-elements/operators-transact-sql?view=sql-server-ver16)
@@ -36,3 +36,13 @@ Outline:
   - Combined With Join
   - Alias Tables
 # Having vs Where (8)
+
+/********************************************************************************
+*
+筆記 : 
+
+增刪查改
+INSERT INTO , DELETE , SELECT , UPDATE
+
+*
+*********************************************************************************/
