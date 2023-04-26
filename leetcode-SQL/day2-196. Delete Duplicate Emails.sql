@@ -65,6 +65,21 @@ WHERE id IN (
 );
 
 /*
+skill:
+
+1. 同一個表 FROM 兩次
+2. cte - common table expression 通用資料表運算式 (暫存具名結果集)
+   ROW_NUMBER() OVER - 排序函數
+分組排序 PARTITION BY
+參考資料 : SQL Server 實用的排序函數 ROW_NUMBER() https://ithelp.ithome.com.tw/articles/10225653
+
+
+*/
+
+
+
+
+/*
 首先，使用以下 SQL 語句找出重複的電子郵件：
 
 WITH cte AS (

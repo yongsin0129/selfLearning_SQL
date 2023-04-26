@@ -54,3 +54,11 @@ SET sex =
         WHEN sex = 'f' THEN 'm'
         WHEN sex = 'm' THEN 'f'
     END
+
+/*
+skill:
+
+UPDATE & SET
+CASE & END
+
+*/

@@ -67,3 +67,11 @@ SELECT employee_id,
        END AS bonus
 FROM Employees
 ORDER BY employee_id;
+
+/*
+skill:
+
+IF(condition , A , B )
+CASE & END
+
+*/

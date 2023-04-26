@@ -42,7 +42,7 @@ Outline:
 筆記 : 
 
 增刪查改
-INSERT INTO , DELETE , SELECT , UPDATE
+INSERT INTO , DELETE , SELECT & AS, UPDATE & SET
 
 *
 *********************************************************************************/
