@@ -62,3 +62,11 @@ UPDATE & SET
 CASE & END
 
 */
+
+// 解法
+UPDATE Salary
+SET sex = IF (sex = 'f', 'm', 'f');
+
+// 解法
+UPDATE salary
+SET sex = REPLACE ('fm', sex, '');

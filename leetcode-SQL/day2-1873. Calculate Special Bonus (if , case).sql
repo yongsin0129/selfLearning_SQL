@@ -75,3 +75,9 @@ IF(condition , A , B )
 CASE & END
 
 */
+
+SELECT employee_id, salary*COALESCE(employee_id%2<>0 and name not like 'M%',0) as bonus
+FROM Employees ORDER BY employee_id
+
+-- or
+SELECT employee_id,salary*(employee_id%2)*(name not like "M%") AS bonus FROM employees ORDER BY  employee_id;
